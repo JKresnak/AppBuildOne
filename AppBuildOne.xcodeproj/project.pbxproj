@@ -14,6 +14,8 @@
 		7FDD665323FC810100D2E135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FDD665123FC810100D2E135 /* LaunchScreen.storyboard */; };
 		7FDD665E23FC810100D2E135 /* AppBuildOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDD665D23FC810100D2E135 /* AppBuildOneTests.swift */; };
 		7FDD666923FC810100D2E135 /* AppBuildOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDD666823FC810100D2E135 /* AppBuildOneUITests.swift */; };
+		7FDD667A23FC81C100D2E135 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDD667823FC81C100D2E135 /* ViewControllerTwo.swift */; };
+		7FDD667B23FC81C100D2E135 /* ViewControllerTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FDD667923FC81C100D2E135 /* ViewControllerTwo.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7FDD666423FC810100D2E135 /* AppBuildOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppBuildOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDD666823FC810100D2E135 /* AppBuildOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBuildOneUITests.swift; sourceTree = "<group>"; };
 		7FDD666A23FC810100D2E135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FDD667823FC81C100D2E135 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		7FDD667923FC81C100D2E135 /* ViewControllerTwo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewControllerTwo.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		7FDD663C23FC80FF00D2E135 = {
 			isa = PBXGroup;
 			children = (
+				7FDD667823FC81C100D2E135 /* ViewControllerTwo.swift */,
+				7FDD667923FC81C100D2E135 /* ViewControllerTwo.xib */,
 				7FDD664723FC80FF00D2E135 /* AppBuildOne */,
 				7FDD665C23FC810100D2E135 /* AppBuildOneTests */,
 				7FDD666723FC810100D2E135 /* AppBuildOneUITests */,
@@ -232,6 +238,7 @@
 				7FDD665323FC810100D2E135 /* LaunchScreen.storyboard in Resources */,
 				7FDD665023FC810100D2E135 /* Assets.xcassets in Resources */,
 				7FDD664E23FC80FF00D2E135 /* Main.storyboard in Resources */,
+				7FDD667B23FC81C100D2E135 /* ViewControllerTwo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			files = (
 				7FDD664B23FC80FF00D2E135 /* ViewController.swift in Sources */,
 				7FDD664923FC80FF00D2E135 /* AppDelegate.swift in Sources */,
+				7FDD667A23FC81C100D2E135 /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

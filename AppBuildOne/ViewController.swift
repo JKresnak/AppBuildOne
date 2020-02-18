@@ -10,11 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var UHWO: UILabel!
+    self.UILabel.text = "Unversity of Hawaii West Oahu"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
 
 }
 
