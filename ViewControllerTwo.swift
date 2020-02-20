@@ -10,9 +10,15 @@ import UIKit
 
 class ViewControllerTwo: UIViewController {
 
+    var one = 10
+    var two = 20
+    
+    @IBOutlet weak var Calculate: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        do {
+    print(one + two)
         // Do any additional setup after loading the view.
     }
 
@@ -27,4 +33,11 @@ class ViewControllerTwo: UIViewController {
     }
     */
 
+}
+    
+    @IBAction func PressMe(_ sender: Any) {
+        self.Calculate.
+        print(one+two)
+        
+    }
 }
