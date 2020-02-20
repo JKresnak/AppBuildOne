@@ -36,8 +36,8 @@ class ViewControllerTwo: UIViewController {
 }
     
     @IBAction func PressMe(_ sender: Any) {
-        self.Calculate.
-        print(one+two)
+        //self.Calculate = one+two
+        print(Calculate)
         
     }
 }
