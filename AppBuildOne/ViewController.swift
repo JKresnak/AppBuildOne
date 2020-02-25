@@ -10,12 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    weak var UHWO: UILabel!
+    weak var UHWO: UILabel?
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.UHWO.text = "University of Hawaii West Oahu"
-        //Can't figure out the problem here atm
+        self.UHWO?.text = "University of Hawaii West Oahu"
+        //I'm getting an error here
         
         // Do any additional setup after loading the view, typically from a nib.
             self.view.backgroundColor=UIColor.gray
@@ -23,9 +23,10 @@ class ViewController: UIViewController {
    
     @IBOutlet weak var DescriptionOfUHWO: UITextView!
     override func `self`() -> Self {
-    self.DescriptionOfUHWO.text = "The University of Hawaiʻi–West Oʻahu (UHWO) is a public university in Kapolei, Hawaii. It is one of ten campuses of the University of Hawaiʻi system. It offers baccalaureate degrees in liberal arts and professional studies. UHWO opened in January 1976 and since 1981 has been accredited by the Western Association of Schools and Colleges."
+    TextView.text = "The University of Hawaiʻi–West Oʻahu (UHWO) is a public university in Kapolei, Hawaii. It is one of ten campuses of the University of Hawaiʻi system. It offers baccalaureate degrees in liberal arts and professional studies. UHWO opened in January 1976 and since 1981 has been accredited by the Western Association of Schools and Colleges."
        
-}
+return self
+    }
 
     @IBOutlet weak var TextView: UITextView!
     
